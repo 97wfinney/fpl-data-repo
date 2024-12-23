@@ -1,7 +1,7 @@
 import json
 
 # Load the data from the JSON file
-with open("Gameweek_15.json", "r") as file:
+with open("Gameweek_16.json", "r") as file:
     data = json.load(file)
 
 # Extract player data
