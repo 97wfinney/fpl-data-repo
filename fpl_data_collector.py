@@ -29,6 +29,10 @@ def save_to_json(data, filename):
 
 # Function to push changes to GitHub
 def push_to_github(repo_path, commit_message="Add FPL data"):
+    # Save current directory
+    original_dir = os.getcwd()
+    
+    # Change to repo directory
     os.chdir(repo_path)
     
     # Add all files to the staging area
@@ -39,6 +43,9 @@ def push_to_github(repo_path, commit_message="Add FPL data"):
     
     # Push to the remote repository
     subprocess.run(['git', 'push', 'origin', 'main'])
+    
+    # Return to original directory
+    os.chdir(original_dir)
 
 # Main function to fetch data, save it, and push to GitHub
 def main():
@@ -53,18 +60,30 @@ def main():
         print("Could not determine the current gameweek.")
         return
 
-    # Create a filename based on the current gameweek
-    filename = f"Gameweek_{current_gameweek}.json"
-
-    # Save the data to a JSON file
-    save_to_json(data, filename)
-    print(f"Data for Gameweek {current_gameweek} saved to {filename}")
-
     # Define the path to your local Git repository
     repo_path = "/home/wfinney/Desktop/fpl-data-repo"  # Change this to your actual repo path
+    
+    # Create the 25 folder if it doesn't exist
+    folder_25_path = os.path.join(repo_path, "25")
+    os.makedirs(folder_25_path, exist_ok=True)
+    print(f"Created/verified folder: {folder_25_path}")
+
+    # Create a filename based on the current gameweek
+    filename = f"Gameweek_{current_gameweek}.json"
+    
+    # Full path including the 25 folder
+    full_filepath = os.path.join(folder_25_path, filename)
+
+    # Save the data to a JSON file in the 25 folder
+    save_to_json(data, full_filepath)
+    print(f"Data for Gameweek {current_gameweek} saved to {full_filepath}")
+
+    # Create commit message with more detail
+    commit_message = f"Add FPL data for Gameweek {current_gameweek} - Season 24/25"
 
     # Push the saved data to GitHub
-    push_to_github(repo_path)
+    push_to_github(repo_path, commit_message)
+    print(f"Successfully pushed Gameweek {current_gameweek} data to GitHub!")
 
 if __name__ == "__main__":
     main()
