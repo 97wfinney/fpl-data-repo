@@ -18,6 +18,7 @@ LOG_FILE = "saved_gameweeks.txt"
 REPO_PATH = "/home/wfinney/Desktop/fpl-data-repo"
 
 # Discord configuration
+load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 DISCORD_CHANNEL_ID = 1253342360222437419
 intents = discord.Intents.default()
