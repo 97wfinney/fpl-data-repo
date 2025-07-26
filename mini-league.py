@@ -89,15 +89,16 @@ def main():
     saved_gws = get_saved_gameweeks()
 
     new_saved = False
-    for gw in finished_gws:
-        if str(gw) not in saved_gws:
-            league_data = fetch_data(BASE_URL + f"leagues-classic/{LEAGUE_ID}/standings/?event={gw}")
+    if finished_gws:
+        latest_gw = max(finished_gws)
+        if str(latest_gw) not in saved_gws:
+            league_data = fetch_data(BASE_URL + f"leagues-classic/{LEAGUE_ID}/standings/?event={latest_gw}")
             if league_data:
-                filename = os.path.join(DATA_DIR, f"mini_league_gw{gw}.json")
+                filename = os.path.join(DATA_DIR, f"mini_league_gw{latest_gw}.json")
                 save_json(league_data, filename)
-                log_gameweek(gw)
+                log_gameweek(latest_gw)
                 new_saved = True
-                print(f"✅ Saved mini-league data for GW{gw}.")
+                print(f"✅ Saved mini-league data for GW{latest_gw}.")
 
     push_to_github(REPO_PATH, "Update mini-league data")
 
