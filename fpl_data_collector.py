@@ -3,6 +3,32 @@ import requests
 import subprocess
 import os
 from datetime import datetime
+import discord
+import asyncio
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+DISCORD_CHANNEL_ID = 1253342360222437419
+DISCORD_CHANNEL_ID = int(DISCORD_CHANNEL_ID) if DISCORD_CHANNEL_ID else None
+
+async def post_to_discord(message):
+    if not DISCORD_TOKEN or not DISCORD_CHANNEL_ID:
+        print("Discord credentials not set. Skipping Discord notification.")
+        return
+
+    intents = discord.Intents.default()
+    client = discord.Client(intents=intents)
+
+    @client.event
+    async def on_ready():
+        channel = client.get_channel(DISCORD_CHANNEL_ID)
+        if channel:
+            await channel.send(message)
+        await client.close()
+
+    await client.start(DISCORD_TOKEN)
 
 BASE_URL = "https://fantasy.premierleague.com/api/"
 
@@ -52,12 +78,14 @@ def main():
     # Fetch the bootstrap data
     data = fetch_bootstrap_data()
     if data is None:
+        asyncio.run(post_to_discord("FPL data collector: Failed to fetch data."))
         return
 
     # Determine the current gameweek
     current_gameweek = get_current_gameweek(data)
     if current_gameweek is None:
         print("Could not determine the current gameweek.")
+        asyncio.run(post_to_discord("FPL data collector: No current gameweek found."))
         return
 
     # Define the path to your local Git repository
@@ -84,6 +112,7 @@ def main():
     # Push the saved data to GitHub
     push_to_github(repo_path, commit_message)
     print(f"Successfully pushed Gameweek {current_gameweek} data to GitHub!")
+    asyncio.run(post_to_discord(f"FPL data collector: GW{current_gameweek} data pushed to GitHub."))
 
 if __name__ == "__main__":
     main()

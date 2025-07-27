@@ -7,10 +7,12 @@ from datetime import datetime
 import subprocess
 import asyncio
 import discord
+from dotenv import load_dotenv
+load_dotenv()
 
 BASE_URL = "https://fantasy.premierleague.com/api/"
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-DISCORD_CHANNEL_ID = int(os.getenv("DISCORD_CHANNEL_ID", 0))
+DISCORD_CHANNEL_ID = 1253342360222437419
 
 
 def fetch_data(url):
@@ -83,12 +85,16 @@ async def notify_discord(message):
 def main():
     gameweek = get_current_gameweek()
     if gameweek is None:
-        print("Could not determine the current gameweek.")
+        msg = "⚠️ Could not determine the current gameweek. No data collected."
+        print(msg)
+        asyncio.run(notify_discord(msg))
         return
 
     top_managers = fetch_top_managers(20)
     if not top_managers:
-        print("Failed to fetch top managers.")
+        msg = "⚠️ Failed to fetch top managers. No data collected."
+        print(msg)
+        asyncio.run(notify_discord(msg))
         return
 
     folder = f"top_overall/Gameweek_{gameweek}/"
@@ -100,9 +106,8 @@ def main():
         save_json(details, os.path.join(folder, f"team_{entry_id}.json"))
 
     push_to_github("/home/wfinney/Desktop/fpl-data-repo", f"Add top 20 manager data for Gameweek {gameweek}")
-    print(f"Saved and pushed data for Gameweek {gameweek}.")
-
     message = f"📊 Top 20 manager data for GW{gameweek} collected and pushed to GitHub!"
+    print(message)
     asyncio.run(notify_discord(message))
 
 
