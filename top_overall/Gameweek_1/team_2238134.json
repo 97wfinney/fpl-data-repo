@@ -469,6 +469,51 @@
                     "entry_last_rank": 0
                 },
                 {
+                    "id": 52658,
+                    "name": "Dr VAR - \u0631\u0641\u064a\u0642 \u0639\u0637\u0627\u0627\u0644\u0644\u0647",
+                    "short_name": null,
+                    "created": "2025-07-21T13:44:58.998398Z",
+                    "closed": false,
+                    "rank": null,
+                    "max_entries": null,
+                    "league_type": "x",
+                    "scoring": "c",
+                    "admin_entry": 41836,
+                    "start_event": 1,
+                    "entry_can_leave": true,
+                    "entry_can_admin": false,
+                    "entry_can_invite": false,
+                    "has_cup": true,
+                    "cup_league": null,
+                    "cup_qualified": null,
+                    "rank_count": 12846,
+                    "entry_percentile_rank": null,
+                    "active_phases": [
+                        {
+                            "phase": 1,
+                            "rank": 0,
+                            "last_rank": 0,
+                            "rank_sort": 0,
+                            "total": 0,
+                            "league_id": 52658,
+                            "rank_count": 12846,
+                            "entry_percentile_rank": null
+                        },
+                        {
+                            "phase": 2,
+                            "rank": 0,
+                            "last_rank": 0,
+                            "rank_sort": 0,
+                            "total": 0,
+                            "league_id": 52658,
+                            "rank_count": 12850,
+                            "entry_percentile_rank": null
+                        }
+                    ],
+                    "entry_rank": 0,
+                    "entry_last_rank": 0
+                },
+                {
                     "id": 71843,
                     "name": "\u0641\u0627\u0646\u062a\u0627\u0632\u064a \u0627\u0644\u063a\u0644\u0627\u0628\u0629-Free Palestine",
                     "short_name": null,
