@@ -1,0 +1,56 @@
+{
+  "current": [
+    {
+      "event": 1,
+      "points": 43,
+      "total_points": 43,
+      "rank": 7620856,
+      "rank_sort": 7640694,
+      "overall_rank": 7620845,
+      "percentile_rank": 85,
+      "bank": 0,
+      "value": 1000,
+      "event_transfers": 0,
+      "event_transfers_cost": 0,
+      "points_on_bench": 10
+    }
+  ],
+  "past": [
+    {
+      "season_name": "2018/19",
+      "total_points": 2280,
+      "rank": 83357
+    },
+    {
+      "season_name": "2019/20",
+      "total_points": 2339,
+      "rank": 18319
+    },
+    {
+      "season_name": "2020/21",
+      "total_points": 2275,
+      "rank": 475750
+    },
+    {
+      "season_name": "2021/22",
+      "total_points": 2508,
+      "rank": 95602
+    },
+    {
+      "season_name": "2022/23",
+      "total_points": 2578,
+      "rank": 26526
+    },
+    {
+      "season_name": "2023/24",
+      "total_points": 2526,
+      "rank": 42162
+    },
+    {
+      "season_name": "2024/25",
+      "total_points": 2366,
+      "rank": 834351
+    }
+  ],
+  "chips": []
+}

@@ -1,0 +1,77 @@
+{
+  "current": [
+    {
+      "event": 1,
+      "points": 74,
+      "total_points": 74,
+      "rank": 544391,
+      "rank_sort": 546920,
+      "overall_rank": 544391,
+      "percentile_rank": 10,
+      "bank": 10,
+      "value": 1000,
+      "event_transfers": 0,
+      "event_transfers_cost": 0,
+      "points_on_bench": 0
+    }
+  ],
+  "past": [
+    {
+      "season_name": "2014/15",
+      "total_points": 1745,
+      "rank": 1397182
+    },
+    {
+      "season_name": "2015/16",
+      "total_points": 1969,
+      "rank": 816630
+    },
+    {
+      "season_name": "2016/17",
+      "total_points": 1755,
+      "rank": 2132861
+    },
+    {
+      "season_name": "2018/19",
+      "total_points": 1868,
+      "rank": 3436104
+    },
+    {
+      "season_name": "2019/20",
+      "total_points": 1615,
+      "rank": 5914286
+    },
+    {
+      "season_name": "2020/21",
+      "total_points": 2117,
+      "rank": 1549355
+    },
+    {
+      "season_name": "2021/22",
+      "total_points": 2009,
+      "rank": 2708168
+    },
+    {
+      "season_name": "2022/23",
+      "total_points": 2249,
+      "rank": 2094002
+    },
+    {
+      "season_name": "2023/24",
+      "total_points": 2154,
+      "rank": 2799446
+    },
+    {
+      "season_name": "2024/25",
+      "total_points": 2180,
+      "rank": 3135613
+    }
+  ],
+  "chips": [
+    {
+      "name": "bboost",
+      "time": "2025-08-09T12:48:58.844566Z",
+      "event": 1
+    }
+  ]
+}

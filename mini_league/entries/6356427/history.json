@@ -1,0 +1,26 @@
+{
+  "current": [
+    {
+      "event": 1,
+      "points": 62,
+      "total_points": 62,
+      "rank": 2372236,
+      "rank_sort": 2530898,
+      "overall_rank": 2372235,
+      "percentile_rank": 30,
+      "bank": 0,
+      "value": 1000,
+      "event_transfers": 0,
+      "event_transfers_cost": 0,
+      "points_on_bench": 15
+    }
+  ],
+  "past": [
+    {
+      "season_name": "2023/24",
+      "total_points": 1901,
+      "rank": 5983733
+    }
+  ],
+  "chips": []
+}

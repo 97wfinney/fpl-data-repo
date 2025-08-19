@@ -1,0 +1,20 @@
+{
+  "current": [
+    {
+      "event": 1,
+      "points": 73,
+      "total_points": 73,
+      "rank": 631488,
+      "rank_sort": 680848,
+      "overall_rank": 631488,
+      "percentile_rank": 10,
+      "bank": 0,
+      "value": 1000,
+      "event_transfers": 0,
+      "event_transfers_cost": 0,
+      "points_on_bench": 22
+    }
+  ],
+  "past": [],
+  "chips": []
+}

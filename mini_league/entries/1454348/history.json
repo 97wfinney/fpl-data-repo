@@ -1,0 +1,26 @@
+{
+  "current": [
+    {
+      "event": 1,
+      "points": 25,
+      "total_points": 25,
+      "rank": 9403946,
+      "rank_sort": 9405630,
+      "overall_rank": 9403930,
+      "percentile_rank": 100,
+      "bank": 30,
+      "value": 1000,
+      "event_transfers": 0,
+      "event_transfers_cost": 0,
+      "points_on_bench": 2
+    }
+  ],
+  "past": [
+    {
+      "season_name": "2024/25",
+      "total_points": 1977,
+      "rank": 5741557
+    }
+  ],
+  "chips": []
+}
