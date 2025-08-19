@@ -19,6 +19,7 @@ OUTPUT_ROOT = os.path.join(LEAGUE_DATA_DIR, "entries")
 REPO_PATH = "/home/wfinney/Desktop/fpl-data-repo"
 BASE_URL = "https://fantasy.premierleague.com/api/"
 LOG_FILE = os.path.join(LEAGUE_DATA_DIR, "entries_index.json")
+BOOTSTRAP_CACHE = os.path.join(LEAGUE_DATA_DIR, "bootstrap_cache.json")
 
 # Optional Discord (only used if both env vars are present)
 load_dotenv()
@@ -87,6 +88,57 @@ def push_to_github(repo_path: str, commit_message: str) -> None:
         os.chdir(original_dir)
 
 
+def build_player_lookup(bootstrap=None):
+    """Build a mapping from element id -> {name, web_name, team, pos}.
+    Uses current bootstrap; falls back to cached if offline.
+    """
+    data = bootstrap or fetch_bootstrap()
+    if data:
+        write_json(BOOTSTRAP_CACHE, data)
+    else:
+        data = read_json_if_exists(BOOTSTRAP_CACHE) or {}
+
+    elements = {e.get("id"): e for e in data.get("elements", [])}
+    teams = {t.get("id"): t for t in data.get("teams", [])}
+    types = {et.get("id"): et for et in data.get("element_types", [])}
+
+    def full_name(e):
+        return f"{e.get('first_name','')} {e.get('second_name','')}".strip()
+
+    player_map = {}
+    for pid, e in elements.items():
+        team_short = teams.get(e.get("team"), {}).get("short_name", "")
+        pos = types.get(e.get("element_type"), {}).get("singular_name_short", "")
+        player_map[pid] = {
+            "name": full_name(e),
+            "web_name": e.get("web_name", ""),
+            "team": team_short,
+            "pos": pos,
+        }
+    return player_map
+
+def resolve_picks_file(gw_path, player_map):
+    """Read a picks file and write an enriched copy into picks_resolved/ with names/teams/positions."""
+    data = read_json_if_exists(gw_path)
+    if not data:
+        return
+    for p in data.get("picks", []):
+        pid = p.get("element")
+        info = player_map.get(pid)
+        if info:
+            p.update({
+                "name": info["name"],
+                "web_name": info["web_name"],
+                "team": info["team"],
+                "pos": info["pos"],
+            })
+    # Write to sibling directory picks_resolved
+    out_dir = os.path.dirname(gw_path).replace(os.sep + "picks", os.sep + "picks_resolved")
+    ensure_dir(out_dir)
+    out_path = os.path.join(out_dir, os.path.basename(gw_path))
+    write_json(out_path, data)
+
+
 # =====================
 # League parsing
 # =====================
@@ -141,7 +193,7 @@ def finished_or_current_gws(bootstrap) -> List[int]:
     return sorted(set([gw for gw in gws if isinstance(gw, int)]))
 
 
-def gather_entry_data(entry_id: int, gws: List[int], refresh: bool = False) -> Tuple[int, int]:
+def gather_entry_data(entry_id: int, gws: List[int], player_map=None, refresh: bool = False) -> Tuple[int, int]:
     """Fetch and save all data for a single entry.
     Returns (files_written, requests_made).
     """
@@ -189,6 +241,8 @@ def gather_entry_data(entry_id: int, gws: List[int], refresh: bool = False) -> T
             if data is not None:
                 write_json(gw_path, data)
                 files_written += 1
+                if player_map:
+                    resolve_picks_file(gw_path, player_map)
             # Be a little gentle on the API
             time.sleep(0.15)
 
@@ -247,12 +301,14 @@ def main():
         debug("⚠️  Could not determine finished/current gameweeks; defaulting to 1..38")
         gws = list(range(1, 39))
 
+    player_map = build_player_lookup(bootstrap)
+
     total_files = 0
     total_requests = 0
 
     for i, (entry_id, meta) in enumerate(entries_meta.items(), start=1):
         debug(f"➡️  ({i}/{len(entries_meta)}) Entry {entry_id}: {meta.get('entry_name')} / {meta.get('player_name')}")
-        fw, rm = gather_entry_data(entry_id, gws, refresh=args.refresh)
+        fw, rm = gather_entry_data(entry_id, gws, player_map=player_map, refresh=args.refresh)
         total_files += fw
         total_requests += rm
 
