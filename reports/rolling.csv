@@ -57,3 +57,34 @@ gw,entry,entry_name,manager,points,rank,captain_id,captain_name,captain_points,b
 1,8316637,SHANNON FC,Shannon H,48,6360211,624,Jarrod Bowen,2,0,0,none,1-4-3-3,3,2
 1,8818983,IroningBoredDreamers,Ed Evans,59,3111857,381,Mohamed Salah,8,3,0,none,1-3-5-2,1,0
 1,9109918,Bliss United FC,Amy Bliss,54,4551060,64,Ollie Watkins,2,7,0,none,1-4-4-2,1,0
+gw,entry,entry_name,manager,points,points_vs_mean,rank,overall_rank,overall_rank_prev,rank_delta,captain_id,captain_name,cap_raw_pts,cap_effect_pts,cap_vs_field,bench_points,autosubs,autosubs_pts,bench_waste,hit_cost,chip,transfer_count,transfer_in_pts,transfer_out_pts,net_transfer_gain,formation,premium_count,template_overlap,template_overlap_pct,differentials_started,leverage_points,flagged_starters,squad_value_m,bank_m
+gw,entry,entry_name,manager,points,points_vs_mean,rank,overall_rank,overall_rank_prev,rank_delta,captain_id,captain_name,cap_raw_pts,cap_effect_pts,cap_vs_field,bench_points,autosubs,autosubs_pts,bench_waste,hit_cost,chip,transfer_count,transfer_in_pts,transfer_out_pts,net_transfer_gain,formation,premium_count,template_overlap,template_overlap_pct,differentials_started,leverage_points,flagged_starters,squad_value_m,bank_m
+1,25029,n0n_l0c4l.exe,Will Finney,75,18.340000000000003,468092,468092,,,430,Erling Haaland,13,26,6.1,8,0,0,8,0,none,0,0,0,0,1-4-3-3,1,6,0.545,4,45.52,1,100.0,1.0
+1,168179,Grasshoppers,olly barnes,79,22.340000000000003,243514,243514,,,381,Mohamed Salah,8,24,1.0999999999999996,3,0,0,3,0,3xc,0,0,0,0,1-4-4-2,3,5,0.455,5,46.48,1,100.0,0.0
+1,213380,Foys Boys,George Foy,63,6.340000000000003,2149481,2149481,,,430,Erling Haaland,13,26,6.1,6,0,0,6,0,none,0,0,0,0,1-3-4-3,1,3,0.273,8,41.52,0,100.0,0.5
+1,244919,Slot Ball,Jamie Mitchell,74,17.340000000000003,544391,544391,,,430,Erling Haaland,13,26,6.1,0,0,0,0,0,bboost,0,0,0,0,2-5-5-3,2,6,0.545,7,46.34,1,100.0,1.0
+1,615351,Only Franks,Mike Flynn,51,-5.659999999999997,5471408,5471399,,,381,Mohamed Salah,8,16,1.0999999999999996,6,0,0,6,0,none,0,0,0,0,1-3-5-2,2,3,0.273,8,32.93,0,100.0,0.0
+1,904408,Alex and the Ants,Ali Smith,45,-11.659999999999997,7165720,7165709,,,499,Alexander Isak,0,0,-6.9,0,1,7,-7,0,none,0,0,0,0,1-4-4-2,2,4,0.364,7,33.21,0,100.0,0.0
+1,910679,Toon Park Rangers,Chris Beeden,66,9.340000000000003,1560764,1560765,,,235,Cole Palmer,3,6,-3.9000000000000004,9,0,0,9,0,none,0,0,0,0,1-4-4-2,3,4,0.364,7,52.03,0,100.0,0.0
+1,1058734,Wissa pon a Sarr,David Tonks,43,-13.659999999999997,7620856,7620845,,,382,Florian Wirtz,2,4,-4.9,10,0,0,10,0,none,0,0,0,0,1-3-5-2,1,5,0.455,5,29.93,0,100.0,0.0
+1,1287913,Nigel,Paul Ray,40,-16.659999999999997,8200248,8200235,,,381,Mohamed Salah,8,16,1.0999999999999996,10,1,4,6,0,none,0,0,0,0,1-3-5-2,1,6,0.545,5,22.17,1,100.0,0.0
+1,1454348,Holte End Vikings,Georg Coakley,25,-31.659999999999997,9403946,9403930,,,64,Ollie Watkins,2,4,-4.9,2,1,1,1,0,none,0,0,0,0,1-3-5-2,0,4,0.364,7,18.21,0,100.0,3.0
+1,1493020,Eccles MCMLXXIX FC,Cathy Eckett-Brown,56,-0.6599999999999966,3932979,3932974,,,381,Mohamed Salah,8,16,1.0999999999999996,6,0,0,6,0,none,0,0,0,0,1-4-4-2,2,3,0.273,7,35.76,0,100.0,0.5
+1,1757592,What the Van Hecke?,Mark Horton,46,-10.659999999999997,6908104,6908093,,,381,Mohamed Salah,8,16,1.0999999999999996,5,0,0,5,0,none,0,0,0,0,1-3-4-3,2,5,0.455,5,25.66,0,100.0,0.0
+1,1892372,FC Grim,Louis Grimoldby,39,-17.659999999999997,8366126,8366113,,,382,Florian Wirtz,2,4,-4.9,12,2,7,5,0,none,0,0,0,0,1-4-4-2,1,6,0.545,5,27.07,1,100.0,0.0
+1,2312531,Bruno's Brothers,Callum Bowness,77,20.340000000000003,340882,340882,,,661,Hugo Ekitiké,11,22,4.1,9,0,0,9,0,none,0,0,0,0,1-4-3-3,2,4,0.364,6,49.34,0,100.0,0.5
+1,2368457,Fantaspeight FC,Abi Speight,56,-0.6599999999999966,3932979,3932974,,,381,Mohamed Salah,8,16,1.0999999999999996,17,1,3,14,0,none,0,0,0,0,1-4-4-2,1,3,0.273,7,37.07,1,100.0,0.0
+1,3173574,Que Salah Salah,Alan Eckett-Brown,58,1.3400000000000034,3379513,3379511,,,381,Mohamed Salah,8,16,1.0999999999999996,6,1,1,5,0,none,0,0,0,0,1-3-5-2,1,5,0.455,5,35.62,1,100.0,0.0
+1,3718697,10PinBowen,Dan Birkinshaw,41,-15.659999999999997,8019956,8019944,,,235,Cole Palmer,3,6,-3.9000000000000004,24,0,0,24,0,none,0,0,0,0,1-3-4-3,2,4,0.364,7,29.72,0,100.0,0.0
+1,4391577,HLP FC,Hayley Phelan,67,10.340000000000003,1392305,1392305,,,381,Mohamed Salah,8,24,1.0999999999999996,13,0,0,13,0,3xc,0,0,0,0,1-4-3-3,2,6,0.545,5,38.21,1,100.0,0.0
+1,4895569,Šešky time,James Geary,49,-7.659999999999997,6072149,6072139,,,449,Bruno Borges Fernandes,2,4,-4.9,5,0,0,5,0,none,0,0,0,0,1-4-3-3,1,5,0.455,5,34.66,0,100.0,0.0
+1,4902296,Wirtz Nightmare,James Marshall,73,16.340000000000003,631488,631488,,,661,Hugo Ekitiké,11,22,4.1,22,0,0,22,0,none,0,0,0,0,1-3-4-3,1,5,0.455,5,47.41,0,100.0,0.0
+1,5843000,Groß Misconduct,Phil Johnson,45,-11.659999999999997,7165720,7165709,,,64,Ollie Watkins,2,4,-4.9,7,0,0,7,0,none,0,0,0,0,1-3-5-2,1,3,0.273,8,32.34,0,100.0,2.5
+1,5972675,Saka Rice,Paul Alexis,69,12.340000000000003,1090649,1090649,,,661,Hugo Ekitiké,11,22,4.1,0,1,1,-1,0,none,0,0,0,0,1-4-4-2,2,3,0.273,8,43.97,0,100.0,0.0
+1,6356427,Pick Me Pickford,Emmy Rupasinghe,62,5.340000000000003,2372236,2372235,,,430,Erling Haaland,13,26,6.1,15,0,0,15,0,none,0,0,0,0,1-4-4-2,2,2,0.182,9,40.52,0,100.0,0.0
+1,6795060,Palmer Violets,amy warden,65,8.340000000000003,1743774,1743774,,,381,Mohamed Salah,8,16,1.0999999999999996,11,0,0,11,0,none,0,0,0,0,1-3-5-2,2,3,0.273,8,46.07,0,100.0,0.0
+1,8060015,Fergie Time,Ekene Amadi,36,-20.659999999999997,8771522,8771507,,,249,João Pedro Junqueira de Jesus,2,4,-4.9,5,0,0,5,0,none,0,0,0,0,1-3-4-3,1,4,0.364,6,25.24,0,100.0,0.0
+1,8077774,Dave's Dream Team,David Bailey,82,25.340000000000003,142761,142761,,,430,Erling Haaland,13,26,6.1,18,0,0,18,0,none,0,0,0,0,1-4-4-2,1,5,0.455,4,55.03,1,100.0,0.5
+1,8316637,SHANNON FC,Shannon H,48,-8.659999999999997,6360211,6360201,,,624,Jarrod Bowen,2,4,-4.9,0,2,9,-9,0,none,0,0,0,0,1-4-3-3,3,4,0.364,6,34.93,0,100.0,0.0
+1,8818983,IroningBoredDreamers,Ed Evans,59,2.3400000000000034,3111857,3111856,,,381,Mohamed Salah,8,16,1.0999999999999996,3,0,0,3,0,none,0,0,0,0,1-3-5-2,1,2,0.182,9,43.86,0,100.0,0.0
+1,9109918,Bliss United FC,Amy Bliss,54,-2.6599999999999966,4551060,4551053,,,64,Ollie Watkins,2,4,-4.9,7,0,0,7,0,none,0,0,0,0,1-4-4-2,1,4,0.364,4,37.52,0,100.0,0.5
