@@ -531,6 +531,25 @@ def generate_report(gw: int, me_entry_id: int = None, push: bool = False):
     md.append(md_table(top_rows, ["Player", "Team", "GW pts", "Own %", "Start %"]))
     md.append("\n")
 
+    # Transfers details per manager (player names + points)
+    transfer_lines = []
+    for r in sorted(per_manager_rows, key=lambda x: x.get("transfer_count", 0), reverse=True):
+        entry_id = r.get("entry")
+        # reuse helper defined above
+        transfers = [t for t in load_transfers(entry_id) if t.get("event") == gw]
+        if not transfers:
+            continue
+        ins = [f"{player_name.get(t.get('element_in'), t.get('element_in'))} ({live_points.get(t.get('element_in'), 0)})" for t in transfers]
+        outs = [f"{player_name.get(t.get('element_out'), t.get('element_out'))} ({live_points.get(t.get('element_out'), 0)})" for t in transfers]
+        transfer_lines.append(
+            f"- {r.get('manager','')} — IN: {', '.join(ins)} | OUT: {', '.join(outs)} | net {r.get('net_transfer_gain',0)} (hit {r.get('hit_cost',0)})"
+        )
+
+    if transfer_lines:
+        md.append("## Transfers details (GW)\n")
+        md.extend(transfer_lines)
+        md.append("\n")
+
     # New: Manager breakdown table (per-manager specifics)
     md.append("## Manager breakdown (GW)\n")
     mgr_rows = []
@@ -595,26 +614,71 @@ def generate_report(gw: int, me_entry_id: int = None, push: bool = False):
     out_md = os.path.join(OUTPUT_DIR, f"gw{gw}.md")
     write_text(out_md, "\n".join(md))
 
-    # Rolling CSV per manager (robust to extra keys)
+    # Rolling CSV per manager — overwrite mode with schema handling & de-dup by (gw,entry)
     out_csv = os.path.join(OUTPUT_DIR, "rolling.csv")
-    write_header = True
+
+    # Prepare new rows for this run
+    new_clean = []
+    new_keys = set()
+    for row in per_manager_rows:
+        clean = {k: row.get(k, None) for k in CSV_FIELDNAMES}
+        # normalise numeric
+        try: clean["gw"] = int(clean.get("gw"))
+        except Exception: pass
+        try: clean["entry"] = int(clean.get("entry"))
+        except Exception: pass
+        new_keys.add((clean.get("gw"), clean.get("entry")))
+        new_clean.append(clean)
+
+    combined = []
+    header_matches = False
     if os.path.exists(out_csv):
         try:
-            with open(out_csv, "r", encoding="utf-8") as f:
-                reader = csv.reader(f)
-                existing = next(reader, None)
-                write_header = (existing != CSV_FIELDNAMES)
+            with open(out_csv, "r", encoding="utf-8", newline="") as f:
+                reader = csv.DictReader(f)
+                existing_fieldnames = reader.fieldnames
+                header_matches = (existing_fieldnames == CSV_FIELDNAMES)
+                if header_matches:
+                    for r in reader:
+                        try:
+                            gwi = int(r.get("gw"))
+                            ent = int(r.get("entry"))
+                        except Exception:
+                            continue
+                        if (gwi, ent) in new_keys:
+                            continue  # drop old row for this gw/entry; we will replace with new
+                        keep = {k: r.get(k, None) for k in CSV_FIELDNAMES}
+                        try: keep["gw"] = int(keep.get("gw"))
+                        except Exception: pass
+                        try: keep["entry"] = int(keep.get("entry"))
+                        except Exception: pass
+                        combined.append(keep)
+                else:
+                    # Backup legacy schema and rebuild afresh
+                    backup = out_csv.replace(".csv", f".legacy_{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}.csv")
+                    try:
+                        os.replace(out_csv, backup)
+                        print(f"ℹ️ Detected legacy rolling.csv schema. Backed up to {backup} and rebuilt with new schema.")
+                    except Exception:
+                        pass
         except Exception:
-            write_header = True
+            pass
 
-    with open(out_csv, "a", newline="", encoding="utf-8") as f:
+    combined.extend(new_clean)
+
+    # De-duplicate by key, prefer latest
+    dedup = {}
+    for r in combined:
+        key = (r.get("gw"), r.get("entry"))
+        dedup[key] = r
+    final_rows = list(dedup.values())
+    final_rows.sort(key=lambda r: (int(r.get("gw") or 0), int(r.get("entry") or 0)))
+
+    with open(out_csv, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=CSV_FIELDNAMES)
-        if write_header:
-            w.writeheader()
-        for row in per_manager_rows:
-            # Filter to defined schema and fill defaults
-            clean = {k: row.get(k, None) for k in CSV_FIELDNAMES}
-            w.writerow(clean)
+        w.writeheader()
+        for r in final_rows:
+            w.writerow({k: r.get(k, None) for k in CSV_FIELDNAMES})
 
     print(f"✅ Report written: {out_md}")
     print(f"📈 Rolling CSV updated: {out_csv}")
