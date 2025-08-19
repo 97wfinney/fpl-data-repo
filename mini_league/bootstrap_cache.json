@@ -179,8 +179,8 @@
       "is_previous": false,
       "is_current": false,
       "is_next": true,
-      "cup_leagues_created": false,
-      "h2h_ko_matches_created": false,
+      "cup_leagues_created": true,
+      "h2h_ko_matches_created": true,
       "can_enter": true,
       "can_manage": true,
       "released": true,
@@ -2253,7 +2253,7 @@
       "pulse_id": 38
     }
   ],
-  "total_players": 10392756,
+  "total_players": 10393682,
   "element_stats": [
     {
       "label": "Minutes played",

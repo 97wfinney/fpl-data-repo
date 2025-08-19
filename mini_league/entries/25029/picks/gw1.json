@@ -22,7 +22,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 1
+      "element_type": 1,
+      "name": "Robert Lynch S\u00e1nchez",
+      "web_name": "S\u00e1nchez",
+      "team": "CHE",
+      "pos": "GKP"
     },
     {
       "element": 224,
@@ -30,7 +34,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Marc Cucurella Saseta",
+      "web_name": "Cucurella",
+      "team": "CHE",
+      "pos": "DEF"
     },
     {
       "element": 370,
@@ -38,7 +46,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Jeremie Frimpong",
+      "web_name": "Frimpong",
+      "team": "LIV",
+      "pos": "DEF"
     },
     {
       "element": 145,
@@ -46,7 +58,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Maxim De Cuyper",
+      "web_name": "De Cuyper",
+      "team": "BHA",
+      "pos": "DEF"
     },
     {
       "element": 38,
@@ -54,7 +70,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Ezri Konsa Ngoyo",
+      "web_name": "Konsa",
+      "team": "AVL",
+      "pos": "DEF"
     },
     {
       "element": 449,
@@ -62,7 +82,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Bruno Borges Fernandes",
+      "web_name": "B.Fernandes",
+      "team": "MUN",
+      "pos": "MID"
     },
     {
       "element": 427,
@@ -70,7 +94,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Tijjani Reijnders",
+      "web_name": "Reijnders",
+      "team": "MCI",
+      "pos": "MID"
     },
     {
       "element": 382,
@@ -78,7 +106,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": true,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Florian Wirtz",
+      "web_name": "Wirtz",
+      "team": "LIV",
+      "pos": "MID"
     },
     {
       "element": 661,
@@ -86,7 +118,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Hugo Ekitik\u00e9",
+      "web_name": "Ekitik\u00e9",
+      "team": "LIV",
+      "pos": "FWD"
     },
     {
       "element": 430,
@@ -94,7 +130,11 @@
       "multiplier": 2,
       "is_captain": true,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Erling Haaland",
+      "web_name": "Haaland",
+      "team": "MCI",
+      "pos": "FWD"
     },
     {
       "element": 249,
@@ -102,7 +142,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "web_name": "Jo\u00e3o Pedro",
+      "team": "CHE",
+      "pos": "FWD"
     },
     {
       "element": 470,
@@ -110,7 +154,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 1
+      "element_type": 1,
+      "name": "Martin D\u00fabravka",
+      "web_name": "D\u00fabravka",
+      "team": "BUR",
+      "pos": "GKP"
     },
     {
       "element": 191,
@@ -118,7 +166,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Maxime Est\u00e8ve",
+      "web_name": "Est\u00e8ve",
+      "team": "BUR",
+      "pos": "DEF"
     },
     {
       "element": 47,
@@ -126,7 +178,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Morgan Rogers",
+      "web_name": "Rogers",
+      "team": "AVL",
+      "pos": "MID"
     },
     {
       "element": 242,
@@ -134,7 +190,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Kiernan Dewsbury-Hall",
+      "web_name": "Dewsbury-Hall",
+      "team": "EVE",
+      "pos": "MID"
     }
   ]
 }

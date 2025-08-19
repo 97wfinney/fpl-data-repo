@@ -35,7 +35,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": true,
-      "element_type": 1
+      "element_type": 1,
+      "name": "Martin D\u00fabravka",
+      "web_name": "D\u00fabravka",
+      "team": "BUR",
+      "pos": "GKP"
     },
     {
       "element": 5,
@@ -43,7 +47,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Gabriel dos Santos Magalh\u00e3es",
+      "web_name": "Gabriel",
+      "team": "ARS",
+      "pos": "DEF"
     },
     {
       "element": 38,
@@ -51,7 +59,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Ezri Konsa Ngoyo",
+      "web_name": "Konsa",
+      "team": "AVL",
+      "pos": "DEF"
     },
     {
       "element": 371,
@@ -59,7 +71,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Milos Kerkez",
+      "web_name": "Kerkez",
+      "team": "LIV",
+      "pos": "DEF"
     },
     {
       "element": 610,
@@ -67,7 +83,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Aaron Wan-Bissaka",
+      "web_name": "Wan-Bissaka",
+      "team": "WHU",
+      "pos": "DEF"
     },
     {
       "element": 21,
@@ -75,7 +95,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Declan Rice",
+      "web_name": "Rice",
+      "team": "ARS",
+      "pos": "MID"
     },
     {
       "element": 266,
@@ -83,7 +107,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Eberechi Eze",
+      "web_name": "Eze",
+      "team": "CRY",
+      "pos": "MID"
     },
     {
       "element": 413,
@@ -91,7 +119,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Omar Marmoush",
+      "web_name": "Marmoush",
+      "team": "MCI",
+      "pos": "MID"
     },
     {
       "element": 382,
@@ -99,7 +131,11 @@
       "multiplier": 2,
       "is_captain": true,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Florian Wirtz",
+      "web_name": "Wirtz",
+      "team": "LIV",
+      "pos": "MID"
     },
     {
       "element": 661,
@@ -107,7 +143,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Hugo Ekitik\u00e9",
+      "web_name": "Ekitik\u00e9",
+      "team": "LIV",
+      "pos": "FWD"
     },
     {
       "element": 249,
@@ -115,7 +155,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "web_name": "Jo\u00e3o Pedro",
+      "team": "CHE",
+      "pos": "FWD"
     },
     {
       "element": 253,
@@ -123,7 +167,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 1
+      "element_type": 1,
+      "name": "Dean Henderson",
+      "web_name": "Henderson",
+      "team": "CRY",
+      "pos": "GKP"
     },
     {
       "element": 414,
@@ -131,7 +179,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Phil Foden",
+      "web_name": "Foden",
+      "team": "MCI",
+      "pos": "MID"
     },
     {
       "element": 499,
@@ -139,7 +191,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Alexander Isak",
+      "web_name": "Isak",
+      "team": "NEW",
+      "pos": "FWD"
     },
     {
       "element": 260,
@@ -147,7 +203,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Marc Gu\u00e9hi",
+      "web_name": "Gu\u00e9hi",
+      "team": "CRY",
+      "pos": "DEF"
     }
   ]
 }

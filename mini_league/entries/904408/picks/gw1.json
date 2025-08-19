@@ -29,7 +29,11 @@
       "multiplier": 2,
       "is_captain": false,
       "is_vice_captain": true,
-      "element_type": 1
+      "element_type": 1,
+      "name": "Alisson Becker",
+      "web_name": "A.Becker",
+      "team": "LIV",
+      "pos": "GKP"
     },
     {
       "element": 224,
@@ -37,7 +41,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Marc Cucurella Saseta",
+      "web_name": "Cucurella",
+      "team": "CHE",
+      "pos": "DEF"
     },
     {
       "element": 370,
@@ -45,7 +53,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Jeremie Frimpong",
+      "web_name": "Frimpong",
+      "team": "LIV",
+      "pos": "DEF"
     },
     {
       "element": 442,
@@ -53,7 +65,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Harry Maguire",
+      "web_name": "Maguire",
+      "team": "MUN",
+      "pos": "DEF"
     },
     {
       "element": 348,
@@ -61,7 +77,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Joe Rodon",
+      "web_name": "Rodon",
+      "team": "LEE",
+      "pos": "DEF"
     },
     {
       "element": 381,
@@ -69,7 +89,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Mohamed Salah",
+      "web_name": "M.Salah",
+      "team": "LIV",
+      "pos": "MID"
     },
     {
       "element": 413,
@@ -77,7 +101,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Omar Marmoush",
+      "web_name": "Marmoush",
+      "team": "MCI",
+      "pos": "MID"
     },
     {
       "element": 427,
@@ -85,7 +113,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Tijjani Reijnders",
+      "web_name": "Reijnders",
+      "team": "MCI",
+      "pos": "MID"
     },
     {
       "element": 515,
@@ -93,7 +125,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Morgan Gibbs-White",
+      "web_name": "Gibbs-White",
+      "team": "NFO",
+      "pos": "MID"
     },
     {
       "element": 499,
@@ -101,7 +137,11 @@
       "multiplier": 1,
       "is_captain": true,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Alexander Isak",
+      "web_name": "Isak",
+      "team": "NEW",
+      "pos": "FWD"
     },
     {
       "element": 249,
@@ -109,7 +149,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "web_name": "Jo\u00e3o Pedro",
+      "team": "CHE",
+      "pos": "FWD"
     },
     {
       "element": 221,
@@ -117,7 +161,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 1
+      "element_type": 1,
+      "name": "Filip J\u00f6rgensen",
+      "web_name": "J\u00f6rgensen",
+      "team": "CHE",
+      "pos": "GKP"
     },
     {
       "element": 312,
@@ -125,7 +173,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Youssef Ramalho Chermiti",
+      "web_name": "Y.Chermiti",
+      "team": "EVE",
+      "pos": "FWD"
     },
     {
       "element": 403,
@@ -133,7 +185,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Jo\u0161ko Gvardiol",
+      "web_name": "Gvardiol",
+      "team": "MCI",
+      "pos": "DEF"
     },
     {
       "element": 279,
@@ -141,7 +197,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Matheus Fran\u00e7a de Oliveira",
+      "web_name": "M.Fran\u00e7a",
+      "team": "CRY",
+      "pos": "MID"
     }
   ]
 }

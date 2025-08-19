@@ -22,7 +22,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 1
+      "element_type": 1,
+      "name": "Dean Henderson",
+      "web_name": "Henderson",
+      "team": "CRY",
+      "pos": "GKP"
     },
     {
       "element": 575,
@@ -30,7 +34,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Micky van de Ven",
+      "web_name": "Van de Ven",
+      "team": "TOT",
+      "pos": "DEF"
     },
     {
       "element": 610,
@@ -38,7 +46,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Aaron Wan-Bissaka",
+      "web_name": "Wan-Bissaka",
+      "team": "WHU",
+      "pos": "DEF"
     },
     {
       "element": 408,
@@ -46,7 +58,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "R\u00faben dos Santos Gato Alves Dias",
+      "web_name": "R\u00faben",
+      "team": "MCI",
+      "pos": "DEF"
     },
     {
       "element": 266,
@@ -54,7 +70,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Eberechi Eze",
+      "web_name": "Eze",
+      "team": "CRY",
+      "pos": "MID"
     },
     {
       "element": 580,
@@ -62,7 +82,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Brennan Johnson",
+      "web_name": "Johnson",
+      "team": "TOT",
+      "pos": "MID"
     },
     {
       "element": 235,
@@ -70,7 +94,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": true,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Cole Palmer",
+      "web_name": "Palmer",
+      "team": "CHE",
+      "pos": "MID"
     },
     {
       "element": 381,
@@ -78,7 +106,11 @@
       "multiplier": 2,
       "is_captain": true,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Mohamed Salah",
+      "web_name": "M.Salah",
+      "team": "LIV",
+      "pos": "MID"
     },
     {
       "element": 419,
@@ -86,7 +118,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Jack Grealish",
+      "web_name": "Grealish",
+      "team": "EVE",
+      "pos": "MID"
     },
     {
       "element": 249,
@@ -94,7 +130,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "web_name": "Jo\u00e3o Pedro",
+      "team": "CHE",
+      "pos": "FWD"
     },
     {
       "element": 525,
@@ -102,7 +142,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Chris Wood",
+      "web_name": "Wood",
+      "team": "NFO",
+      "pos": "FWD"
     },
     {
       "element": 341,
@@ -110,7 +154,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 1
+      "element_type": 1,
+      "name": "Karl Darlow",
+      "web_name": "Darlow",
+      "team": "LEE",
+      "pos": "GKP"
     },
     {
       "element": 260,
@@ -118,7 +166,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Marc Gu\u00e9hi",
+      "web_name": "Gu\u00e9hi",
+      "team": "CRY",
+      "pos": "DEF"
     },
     {
       "element": 38,
@@ -126,7 +178,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Ezri Konsa Ngoyo",
+      "web_name": "Konsa",
+      "team": "AVL",
+      "pos": "DEF"
     },
     {
       "element": 337,
@@ -134,7 +190,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Ra\u00fal Jim\u00e9nez Rodr\u00edguez",
+      "web_name": "Ra\u00fal",
+      "team": "FUL",
+      "pos": "FWD"
     }
   ]
 }

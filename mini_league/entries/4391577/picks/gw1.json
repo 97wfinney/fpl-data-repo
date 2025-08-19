@@ -22,7 +22,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 1
+      "element_type": 1,
+      "name": "Nick Pope",
+      "web_name": "Pope",
+      "team": "NEW",
+      "pos": "GKP"
     },
     {
       "element": 610,
@@ -30,7 +34,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Aaron Wan-Bissaka",
+      "web_name": "Wan-Bissaka",
+      "team": "WHU",
+      "pos": "DEF"
     },
     {
       "element": 38,
@@ -38,7 +46,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Ezri Konsa Ngoyo",
+      "web_name": "Konsa",
+      "team": "AVL",
+      "pos": "DEF"
     },
     {
       "element": 260,
@@ -46,7 +58,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Marc Gu\u00e9hi",
+      "web_name": "Gu\u00e9hi",
+      "team": "CRY",
+      "pos": "DEF"
     },
     {
       "element": 505,
@@ -54,7 +70,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Nikola Milenkovi\u0107",
+      "web_name": "Milenkovi\u0107",
+      "team": "NFO",
+      "pos": "DEF"
     },
     {
       "element": 235,
@@ -62,7 +82,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": true,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Cole Palmer",
+      "web_name": "Palmer",
+      "team": "CHE",
+      "pos": "MID"
     },
     {
       "element": 381,
@@ -70,7 +94,11 @@
       "multiplier": 3,
       "is_captain": true,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Mohamed Salah",
+      "web_name": "M.Salah",
+      "team": "LIV",
+      "pos": "MID"
     },
     {
       "element": 382,
@@ -78,7 +106,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Florian Wirtz",
+      "web_name": "Wirtz",
+      "team": "LIV",
+      "pos": "MID"
     },
     {
       "element": 525,
@@ -86,7 +118,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Chris Wood",
+      "web_name": "Wood",
+      "team": "NFO",
+      "pos": "FWD"
     },
     {
       "element": 249,
@@ -94,7 +130,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "web_name": "Jo\u00e3o Pedro",
+      "team": "CHE",
+      "pos": "FWD"
     },
     {
       "element": 64,
@@ -102,7 +142,11 @@
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 4
+      "element_type": 4,
+      "name": "Ollie Watkins",
+      "web_name": "Watkins",
+      "team": "AVL",
+      "pos": "FWD"
     },
     {
       "element": 470,
@@ -110,7 +154,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 1
+      "element_type": 1,
+      "name": "Martin D\u00fabravka",
+      "web_name": "D\u00fabravka",
+      "team": "BUR",
+      "pos": "GKP"
     },
     {
       "element": 575,
@@ -118,7 +166,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2
+      "element_type": 2,
+      "name": "Micky van de Ven",
+      "web_name": "Van de Ven",
+      "team": "TOT",
+      "pos": "DEF"
     },
     {
       "element": 623,
@@ -126,7 +178,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Freddie Potts",
+      "web_name": "Potts",
+      "team": "WHU",
+      "pos": "MID"
     },
     {
       "element": 241,
@@ -134,7 +190,11 @@
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 3
+      "element_type": 3,
+      "name": "Mois\u00e9s Caicedo Corozo",
+      "web_name": "Caicedo",
+      "team": "CHE",
+      "pos": "MID"
     }
   ]
 }

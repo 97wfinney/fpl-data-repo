@@ -117,26 +117,38 @@ def build_player_lookup(bootstrap=None):
         }
     return player_map
 
-def resolve_picks_file(gw_path, player_map):
-    """Read a picks file and write an enriched copy into picks_resolved/ with names/teams/positions."""
+def resolve_picks_file(gw_path, player_map, inplace: bool = False):
+    """Read a picks file and write an enriched copy.
+    If `inplace` is True, overwrite the original file; otherwise write into picks_resolved/.
+    """
     data = read_json_if_exists(gw_path)
     if not data:
-        return
+        return False
+    changed = False
     for p in data.get("picks", []):
         pid = p.get("element")
         info = player_map.get(pid)
         if info:
+            before = (p.get("name"), p.get("web_name"), p.get("team"), p.get("pos"))
             p.update({
                 "name": info["name"],
                 "web_name": info["web_name"],
                 "team": info["team"],
                 "pos": info["pos"],
             })
-    # Write to sibling directory picks_resolved
-    out_dir = os.path.dirname(gw_path).replace(os.sep + "picks", os.sep + "picks_resolved")
-    ensure_dir(out_dir)
-    out_path = os.path.join(out_dir, os.path.basename(gw_path))
+            after = (p.get("name"), p.get("web_name"), p.get("team"), p.get("pos"))
+            changed = changed or (before != after)
+    if inplace:
+        out_path = gw_path
+        # ensure dir exists for safety (it already should)
+        ensure_dir(os.path.dirname(out_path))
+    else:
+        # Write to sibling directory picks_resolved
+        out_dir = os.path.dirname(gw_path).replace(os.sep + "picks", os.sep + "picks_resolved")
+        ensure_dir(out_dir)
+        out_path = os.path.join(out_dir, os.path.basename(gw_path))
     write_json(out_path, data)
+    return changed
 
 
 # =====================
@@ -242,9 +254,18 @@ def gather_entry_data(entry_id: int, gws: List[int], player_map=None, refresh: b
                 write_json(gw_path, data)
                 files_written += 1
                 if player_map:
-                    resolve_picks_file(gw_path, player_map)
+                    changed = resolve_picks_file(gw_path, player_map, inplace=True)
+                    if changed:
+                        files_written += 1
             # Be a little gentle on the API
             time.sleep(0.15)
+        else:
+            # File exists and we're not refreshing: enrich it in place
+            if player_map:
+                changed = resolve_picks_file(gw_path, player_map, inplace=True)
+                if changed:
+                    files_written += 1
+
 
     return files_written, requests_made
 
