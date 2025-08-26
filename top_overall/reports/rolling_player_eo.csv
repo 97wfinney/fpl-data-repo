@@ -180,3 +180,113 @@ gw,player_id,player_name,team,pos,eo,start_rate,cap_rate
 1,506,Murillo Costa dos Santos,NFO,DEF,0.0175,0.0175,0.0
 1,507,Ola Aina,NFO,DEF,0.0351,0.0351,0.0
 1,508,Neco Williams,NFO,DEF,0.0526,0.0526,0.0
+2,1,David Raya Martín,ARS,GKP,0.35,0.35,0.0
+2,515,Morgan Gibbs-White,NFO,MID,0.0,0.0,0.0
+2,5,Gabriel dos Santos Magalhães,ARS,DEF,0.3,0.3,0.0
+2,6,William Saliba,ARS,DEF,0.35,0.35,0.0
+2,7,Riccardo Calafiori,ARS,DEF,0.2,0.1,0.05
+2,8,Jurriën Timber,ARS,DEF,0.65,0.55,0.05
+2,11,Benjamin White,ARS,DEF,0.0,0.0,0.0
+2,525,Chris Wood,NFO,FWD,0.3,0.3,0.0
+2,16,Bukayo Saka,ARS,MID,0.2,0.2,0.0
+2,21,Declan Rice,ARS,MID,0.25,0.25,0.0
+2,26,Martín Zubimendi Ibáñez,ARS,MID,0.05,0.05,0.0
+2,543,Simon Adingra,SUN,MID,0.05,0.05,0.0
+2,33,Marco Bizot,AVL,GKP,0.0,0.0,0.0
+2,36,Matty Cash,AVL,DEF,0.05,0.05,0.0
+2,37,Lucas Digne,AVL,DEF,0.05,0.05,0.0
+2,559,Nectarios Triantis,SUN,MID,0.0,0.0,0.0
+2,48,Youri Tielemans,AVL,MID,0.0,0.0,0.0
+2,564,Nazarii Rusyn,SUN,FWD,0.05,0.05,0.0
+2,565,Guglielmo Vicario,TOT,GKP,0.2,0.2,0.0
+2,568,Pedro Porro Sauceda,TOT,DEF,0.3,0.3,0.0
+2,569,Cristian Romero,TOT,DEF,0.1,0.1,0.0
+2,60,Ben Broggio,AVL,MID,0.0,0.0,0.0
+2,573,Djed Spence,TOT,DEF,0.0,0.0,0.0
+2,66,Norberto Murara Neto,BOU,GKP,0.0,0.0,0.0
+2,67,Đorđe Petrović,BOU,GKP,0.05,0.05,0.0
+2,580,Brennan Johnson,TOT,MID,0.15,0.15,0.0
+2,68,Will Dennis,BOU,GKP,0.0,0.0,0.0
+2,582,Mohammed Kudus,TOT,MID,0.15,0.15,0.0
+2,72,Marcos Senesi Barón,BOU,DEF,0.05,0.05,0.0
+2,73,Adam Smith,BOU,DEF,0.05,0.05,0.0
+2,74,Adrien Truffert,BOU,DEF,0.05,0.05,0.0
+2,82,Antoine Semenyo,BOU,MID,0.4,0.4,0.0
+2,84,Marcus Tavernier,BOU,MID,0.05,0.05,0.0
+2,85,Tyler Adams,BOU,MID,0.0,0.0,0.0
+2,597,Richarlison de Andrade,TOT,FWD,0.15,0.15,0.0
+2,600,Alphonse Areola,WHU,GKP,0.0,0.0,0.0
+2,97,Francisco Evanilson de Lima Barbosa,BOU,FWD,0.1,0.1,0.0
+2,610,Aaron Wan-Bissaka,WHU,DEF,0.1,0.1,0.0
+2,612,Lucas Tolentino Coelho de Lima,WHU,MID,0.05,0.05,0.0
+2,101,Caoimhín Kelleher,BRE,GKP,0.0,0.0,0.0
+2,105,Hákon Rafn Valdimarsson,BRE,GKP,0.0,0.0,0.0
+2,106,Nathan Collins,BRE,DEF,0.05,0.05,0.0
+2,622,Lewis Orford,WHU,MID,0.0,0.0,0.0
+2,110,Michael Kayode,BRE,DEF,0.05,0.05,0.0
+2,624,Jarrod Bowen,WHU,FWD,0.0,0.0,0.0
+2,119,Bryan Mbeumo,MUN,MID,0.05,0.05,0.0
+2,139,Bart Verbruggen,BHA,GKP,0.05,0.05,0.0
+2,661,Hugo Ekitiké,LIV,FWD,0.4,0.4,0.0
+2,151,Jan Paul van Hecke,BHA,DEF,0.05,0.05,0.0
+2,666,Viktor Gyökeres,ARS,FWD,1.15,0.55,0.4
+2,669,Dan Ndoye,NFO,MID,0.05,0.05,0.0
+2,157,Mitoma Kaoru,BHA,MID,0.1,0.1,0.0
+2,158,Georginio Rutter,BHA,MID,0.0,0.0,0.0
+2,178,Danny Welbeck,BHA,FWD,0.05,0.05,0.0
+2,182,James Trafford,MCI,GKP,0.05,0.05,0.0
+2,200,Jaidon Anthony,BUR,MID,0.05,0.05,0.0
+2,205,Josh Cullen,BUR,MID,0.05,0.05,0.0
+2,207,Hannibal Mejbri,BUR,MID,0.05,0.05,0.0
+2,220,Robert Lynch Sánchez,CHE,GKP,0.0,0.0,0.0
+2,224,Marc Cucurella Saseta,CHE,DEF,0.6,0.6,0.0
+2,225,Reece James,CHE,DEF,0.05,0.05,0.0
+2,226,Trevoh Chalobah,CHE,DEF,0.05,0.05,0.0
+2,233,Josh Acheampong,CHE,DEF,0.0,0.0,0.0
+2,235,Cole Palmer,CHE,MID,0.05,0.05,0.1
+2,236,Pedro Lomba Neto,CHE,MID,0.1,0.1,0.0
+2,237,Enzo Fernández,CHE,MID,0.1,0.1,0.0
+2,239,Jamie Bynoe-Gittens,CHE,MID,0.0,0.0,0.0
+2,241,Moisés Caicedo Corozo,CHE,MID,0.1,0.1,0.0
+2,249,João Pedro Junqueira de Jesus,CHE,FWD,1.4,0.65,0.4
+2,252,Marc Guiu Paz,SUN,FWD,0.05,0.05,0.0
+2,253,Dean Henderson,CRY,GKP,0.0,0.0,0.0
+2,256,Daniel Muñoz Mejía,CRY,DEF,0.05,0.05,0.0
+2,266,Eberechi Eze,ARS,MID,0.0,0.0,0.0
+2,267,Ismaïla Sarr,CRY,MID,0.25,0.25,0.0
+2,283,Jean-Philippe Mateta,CRY,FWD,0.05,0.05,0.0
+2,287,Jordan Pickford,EVE,GKP,0.4,0.4,0.0
+2,291,James Tarkowski,EVE,DEF,0.15,0.15,0.0
+2,299,Iliman Ndiaye,EVE,MID,0.2,0.2,0.0
+2,300,Dwight McNeil,EVE,MID,0.0,0.0,0.0
+2,311,Norberto Bercique Gomes Betuncal,EVE,FWD,0.05,0.05,0.0
+2,314,Bernd Leno,FUL,GKP,0.0,0.0,0.0
+2,324,Alex Iwobi,FUL,MID,0.05,0.05,0.0
+2,337,Raúl Jiménez Rodríguez,FUL,FWD,0.05,0.05,0.0
+2,366,Alisson Becker,LIV,GKP,0.05,0.05,0.0
+2,370,Jeremie Frimpong,LIV,DEF,0.0,0.0,0.0
+2,373,Virgil van Dijk,LIV,DEF,0.3,0.3,0.0
+2,381,Mohamed Salah,LIV,MID,0.1,0.1,0.0
+2,382,Florian Wirtz,LIV,MID,0.1,0.1,0.0
+2,384,Cody Gakpo,LIV,MID,0.35,0.35,0.0
+2,386,Alexis Mac Allister,LIV,MID,0.0,0.0,0.0
+2,387,Dominik Szoboszlai,LIV,MID,0.1,0.1,0.0
+2,402,Rayan Aït-Nouri,MCI,DEF,0.15,0.15,0.0
+2,408,Rúben dos Santos Gato Alves Dias,MCI,DEF,0.05,0.05,0.0
+2,413,Omar Marmoush,MCI,MID,0.0,0.0,0.0
+2,417,Rayan Cherki,MCI,MID,0.0,0.0,0.0
+2,419,Jack Grealish,EVE,MID,0.1,0.1,0.0
+2,427,Tijjani Reijnders,MCI,MID,0.2,0.2,0.0
+2,430,Erling Haaland,MCI,FWD,0.45,0.45,0.0
+2,441,Patrick Dorgu,MUN,DEF,0.0,0.0,0.0
+2,444,Leny Yoro,MUN,DEF,0.05,0.05,0.0
+2,449,Bruno Borges Fernandes,MUN,MID,0.1,0.1,0.0
+2,450,Matheus Santos Carneiro da Cunha,MUN,MID,0.05,0.05,0.0
+2,452,Amad Diallo,MUN,MID,0.05,0.05,0.0
+2,473,Lewis Hall,NEW,DEF,0.05,0.05,0.0
+2,474,Fabian Schär,NEW,DEF,0.05,0.05,0.0
+2,476,Dan Burn,NEW,DEF,0.0,0.0,0.0
+2,477,Tino Livramento,NEW,DEF,0.0,0.0,0.0
+2,478,Kieran Trippier,NEW,DEF,0.0,0.0,0.0
+2,506,Murillo Costa dos Santos,NFO,DEF,0.05,0.05,0.0
+2,507,Ola Aina,NFO,DEF,0.05,0.05,0.0
