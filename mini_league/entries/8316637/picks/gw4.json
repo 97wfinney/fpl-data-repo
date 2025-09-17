@@ -1,30 +1,17 @@
 {
   "active_chip": null,
-  "automatic_subs": [
-    {
-      "entry": 8316637,
-      "element_in": 220,
-      "element_out": 140,
-      "event": 1
-    },
-    {
-      "entry": 8316637,
-      "element_in": 638,
-      "element_out": 211,
-      "event": 1
-    }
-  ],
+  "automatic_subs": [],
   "entry_history": {
-    "event": 1,
-    "points": 48,
-    "total_points": 48,
-    "rank": 6360211,
-    "rank_sort": 6604962,
-    "overall_rank": 6360201,
-    "percentile_rank": 70,
-    "bank": 0,
-    "value": 1000,
-    "event_transfers": 0,
+    "event": 4,
+    "points": 77,
+    "total_points": 222,
+    "rank": 1783348,
+    "rank_sort": 1826783,
+    "overall_rank": 3646879,
+    "percentile_rank": 20,
+    "bank": 48,
+    "value": 1002,
+    "event_transfers": 1,
     "event_transfers_cost": 0,
     "points_on_bench": 0
   },
@@ -78,22 +65,22 @@
       "pos": "DEF"
     },
     {
-      "element": 638,
+      "element": 82,
       "position": 5,
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
-      "element_type": 2,
-      "name": "Ki-Jana Hoever",
-      "web_name": "Hoever",
-      "team": "WOL",
-      "pos": "DEF"
+      "element_type": 3,
+      "name": "Antoine Semenyo",
+      "web_name": "Semenyo",
+      "team": "BOU",
+      "pos": "MID"
     },
     {
       "element": 381,
       "position": 6,
-      "multiplier": 1,
-      "is_captain": false,
+      "multiplier": 2,
+      "is_captain": true,
       "is_vice_captain": false,
       "element_type": 3,
       "name": "Mohamed Salah",
@@ -102,15 +89,15 @@
       "pos": "MID"
     },
     {
-      "element": 235,
+      "element": 419,
       "position": 7,
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
       "element_type": 3,
-      "name": "Cole Palmer",
-      "web_name": "Palmer",
-      "team": "CHE",
+      "name": "Jack Grealish",
+      "web_name": "Grealish",
+      "team": "EVE",
       "pos": "MID"
     },
     {
@@ -130,7 +117,7 @@
       "position": 9,
       "multiplier": 1,
       "is_captain": false,
-      "is_vice_captain": false,
+      "is_vice_captain": true,
       "element_type": 4,
       "name": "Jo\u00e3o Pedro Junqueira de Jesus",
       "web_name": "Jo\u00e3o Pedro",
@@ -138,22 +125,22 @@
       "pos": "FWD"
     },
     {
-      "element": 499,
+      "element": 597,
       "position": 10,
       "multiplier": 1,
       "is_captain": false,
       "is_vice_captain": false,
       "element_type": 4,
-      "name": "Alexander Isak",
-      "web_name": "Isak",
-      "team": "LIV",
+      "name": "Richarlison de Andrade",
+      "web_name": "Richarlison",
+      "team": "TOT",
       "pos": "FWD"
     },
     {
       "element": 624,
       "position": 11,
-      "multiplier": 2,
-      "is_captain": true,
+      "multiplier": 1,
+      "is_captain": false,
       "is_vice_captain": false,
       "element_type": 4,
       "name": "Jarrod Bowen",
@@ -166,7 +153,7 @@
       "position": 12,
       "multiplier": 0,
       "is_captain": false,
-      "is_vice_captain": true,
+      "is_vice_captain": false,
       "element_type": 1,
       "name": "Tom McGill",
       "web_name": "McGill",
@@ -174,8 +161,20 @@
       "pos": "GKP"
     },
     {
-      "element": 43,
+      "element": 638,
       "position": 13,
+      "multiplier": 0,
+      "is_captain": false,
+      "is_vice_captain": false,
+      "element_type": 2,
+      "name": "Ki-Jana Hoever",
+      "web_name": "Hoever",
+      "team": "WOL",
+      "pos": "DEF"
+    },
+    {
+      "element": 43,
+      "position": 14,
       "multiplier": 0,
       "is_captain": false,
       "is_vice_captain": false,
@@ -184,18 +183,6 @@
       "web_name": "Alex Moreno",
       "team": "AVL",
       "pos": "DEF"
-    },
-    {
-      "element": 211,
-      "position": 14,
-      "multiplier": 0,
-      "is_captain": false,
-      "is_vice_captain": false,
-      "element_type": 3,
-      "name": "Aaron Ramsey",
-      "web_name": "A.Ramsey",
-      "team": "BUR",
-      "pos": "MID"
     },
     {
       "element": 555,
