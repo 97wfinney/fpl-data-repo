@@ -2,18 +2,18 @@
   "active_chip": null,
   "automatic_subs": [],
   "entry_history": {
-    "event": 10,
-    "points": 82,
-    "total_points": 583,
-    "rank": 1200105,
-    "rank_sort": 1231710,
-    "overall_rank": 2198964,
-    "percentile_rank": 10,
+    "event": 11,
+    "points": 36,
+    "total_points": 619,
+    "rank": 7079556,
+    "rank_sort": 7186104,
+    "overall_rank": 2400230,
+    "percentile_rank": 60,
     "bank": 8,
-    "value": 1008,
+    "value": 1010,
     "event_transfers": 0,
     "event_transfers_cost": 0,
-    "points_on_bench": 14
+    "points_on_bench": 7
   },
   "picks": [
     {
