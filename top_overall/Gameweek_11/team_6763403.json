@@ -1,0 +1,689 @@
+{
+    "info": {
+        "id": 6763403,
+        "joined_time": "2025-08-13T20:03:24.644067Z",
+        "started_event": 1,
+        "favourite_team": 14,
+        "player_first_name": "Kumar",
+        "player_last_name": "Isaac",
+        "player_region_id": 229,
+        "player_region_name": "USA",
+        "player_region_iso_code_short": "US",
+        "player_region_iso_code_long": "USA",
+        "years_active": 0,
+        "summary_overall_points": 812,
+        "summary_overall_rank": 5,
+        "summary_event_points": 29,
+        "summary_event_rank": 10377248,
+        "current_event": 11,
+        "leagues": {
+            "classic": [
+                {
+                    "id": 14,
+                    "name": "Man Utd",
+                    "short_name": "team-14",
+                    "created": "2025-07-20T23:14:28.555028Z",
+                    "closed": false,
+                    "rank": null,
+                    "max_entries": null,
+                    "league_type": "s",
+                    "scoring": "c",
+                    "admin_entry": null,
+                    "start_event": 1,
+                    "entry_can_leave": false,
+                    "entry_can_admin": false,
+                    "entry_can_invite": false,
+                    "has_cup": true,
+                    "cup_league": null,
+                    "cup_qualified": null,
+                    "rank_count": 1815600,
+                    "entry_percentile_rank": 1,
+                    "active_phases": [
+                        {
+                            "phase": 1,
+                            "rank": 2,
+                            "last_rank": 1,
+                            "rank_sort": 2,
+                            "total": 812,
+                            "league_id": 14,
+                            "rank_count": 1815600,
+                            "entry_percentile_rank": 1
+                        },
+                        {
+                            "phase": 5,
+                            "rank": 133472,
+                            "last_rank": 6891,
+                            "rank_sort": 135367,
+                            "total": 127,
+                            "league_id": 14,
+                            "rank_count": 1815602,
+                            "entry_percentile_rank": 10
+                        }
+                    ],
+                    "entry_rank": 2,
+                    "entry_last_rank": 1
+                },
+                {
+                    "id": 249,
+                    "name": "USA",
+                    "short_name": "region-229",
+                    "created": "2025-07-20T23:14:32.785979Z",
+                    "closed": false,
+                    "rank": null,
+                    "max_entries": null,
+                    "league_type": "s",
+                    "scoring": "c",
+                    "admin_entry": null,
+                    "start_event": 1,
+                    "entry_can_leave": false,
+                    "entry_can_admin": false,
+                    "entry_can_invite": false,
+                    "has_cup": true,
+                    "cup_league": null,
+                    "cup_qualified": null,
+                    "rank_count": 423470,
+                    "entry_percentile_rank": 1,
+                    "active_phases": [
+                        {
+                            "phase": 1,
+                            "rank": 2,
+                            "last_rank": 1,
+                            "rank_sort": 2,
+                            "total": 812,
+                            "league_id": 249,
+                            "rank_count": 423470,
+                            "entry_percentile_rank": 1
+                        },
+                        {
+                            "phase": 5,
+                            "rank": 31165,
+                            "last_rank": 2031,
+                            "rank_sort": 31556,
+                            "total": 127,
+                            "league_id": 249,
+                            "rank_count": 423470,
+                            "entry_percentile_rank": 10
+                        }
+                    ],
+                    "entry_rank": 2,
+                    "entry_last_rank": 1
+                },
+                {
+                    "id": 276,
+                    "name": "Gameweek 1",
+                    "short_name": "event-1",
+                    "created": "2025-07-20T23:14:33.264422Z",
+                    "closed": false,
+                    "rank": null,
+                    "max_entries": null,
+                    "league_type": "s",
+                    "scoring": "c",
+                    "admin_entry": null,
+                    "start_event": 1,
+                    "entry_can_leave": false,
+                    "entry_can_admin": false,
+                    "entry_can_invite": false,
+                    "has_cup": false,
+                    "cup_league": null,
+                    "cup_qualified": null,
+                    "rank_count": 9447133,
+                    "entry_percentile_rank": 1,
+                    "active_phases": [
+                        {
+                            "phase": 1,
+                            "rank": 5,
+                            "last_rank": 1,
+                            "rank_sort": 5,
+                            "total": 812,
+                            "league_id": 276,
+                            "rank_count": 9447133,
+                            "entry_percentile_rank": 1
+                        },
+                        {
+                            "phase": 5,
+                            "rank": 732802,
+                            "last_rank": 42408,
+                            "rank_sort": 744912,
+                            "total": 127,
+                            "league_id": 276,
+                            "rank_count": 9439533,
+                            "entry_percentile_rank": 10
+                        }
+                    ],
+                    "entry_rank": 5,
+                    "entry_last_rank": 1
+                },
+                {
+                    "id": 314,
+                    "name": "Overall",
+                    "short_name": "overall",
+                    "created": "2025-07-20T23:14:33.933835Z",
+                    "closed": false,
+                    "rank": null,
+                    "max_entries": null,
+                    "league_type": "s",
+                    "scoring": "c",
+                    "admin_entry": null,
+                    "start_event": 1,
+                    "entry_can_leave": false,
+                    "entry_can_admin": false,
+                    "entry_can_invite": false,
+                    "has_cup": true,
+                    "cup_league": null,
+                    "cup_qualified": null,
+                    "rank_count": 12338888,
+                    "entry_percentile_rank": 1,
+                    "active_phases": [
+                        {
+                            "phase": 1,
+                            "rank": 5,
+                            "last_rank": 1,
+                            "rank_sort": 5,
+                            "total": 812,
+                            "league_id": 314,
+                            "rank_count": 12338888,
+                            "entry_percentile_rank": 1
+                        },
+                        {
+                            "phase": 5,
+                            "rank": 872314,
+                            "last_rank": 55782,
+                            "rank_sort": 884424,
+                            "total": 127,
+                            "league_id": 314,
+                            "rank_count": 12338868,
+                            "entry_percentile_rank": 10
+                        }
+                    ],
+                    "entry_rank": 5,
+                    "entry_last_rank": 1
+                },
+                {
+                    "id": 315,
+                    "name": "NBC Sports League",
+                    "short_name": "brd-nbcsports",
+                    "created": "2025-07-20T23:14:33.951644Z",
+                    "closed": false,
+                    "rank": null,
+                    "max_entries": null,
+                    "league_type": "s",
+                    "scoring": "c",
+                    "admin_entry": null,
+                    "start_event": 1,
+                    "entry_can_leave": false,
+                    "entry_can_admin": false,
+                    "entry_can_invite": false,
+                    "has_cup": true,
+                    "cup_league": null,
+                    "cup_qualified": null,
+                    "rank_count": 424945,
+                    "entry_percentile_rank": 1,
+                    "active_phases": [
+                        {
+                            "phase": 1,
+                            "rank": 2,
+                            "last_rank": 1,
+                            "rank_sort": 2,
+                            "total": 812,
+                            "league_id": 315,
+                            "rank_count": 424945,
+                            "entry_percentile_rank": 1
+                        },
+                        {
+                            "phase": 5,
+                            "rank": 31260,
+                            "last_rank": 2037,
+                            "rank_sort": 31652,
+                            "total": 127,
+                            "league_id": 315,
+                            "rank_count": 424945,
+                            "entry_percentile_rank": 10
+                        }
+                    ],
+                    "entry_rank": 2,
+                    "entry_last_rank": 1
+                },
+                {
+                    "id": 333,
+                    "name": "Second Chance",
+                    "short_name": "sc",
+                    "created": "2025-07-20T23:14:34.276586Z",
+                    "closed": false,
+                    "rank": null,
+                    "max_entries": null,
+                    "league_type": "s",
+                    "scoring": "c",
+                    "admin_entry": null,
+                    "start_event": 21,
+                    "entry_can_leave": false,
+                    "entry_can_admin": false,
+                    "entry_can_invite": false,
+                    "has_cup": false,
+                    "cup_league": null,
+                    "cup_qualified": null,
+                    "rank_count": null,
+                    "entry_percentile_rank": null,
+                    "active_phases": [
+                        {
+                            "phase": 1,
+                            "rank": 0,
+                            "last_rank": 0,
+                            "rank_sort": 0,
+                            "total": 0,
+                            "league_id": 333,
+                            "rank_count": null,
+                            "entry_percentile_rank": null
+                        },
+                        {
+                            "phase": 5,
+                            "rank": 0,
+                            "last_rank": 0,
+                            "rank_sort": 0,
+                            "total": 0,
+                            "league_id": 333,
+                            "rank_count": null,
+                            "entry_percentile_rank": null
+                        }
+                    ],
+                    "entry_rank": 0,
+                    "entry_last_rank": 0
+                },
+                {
+                    "id": 1101517,
+                    "name": "NJ7'S",
+                    "short_name": null,
+                    "created": "2025-08-09T22:22:51.905403Z",
+                    "closed": false,
+                    "rank": null,
+                    "max_entries": null,
+                    "league_type": "x",
+                    "scoring": "c",
+                    "admin_entry": 5072815,
+                    "start_event": 1,
+                    "entry_can_leave": true,
+                    "entry_can_admin": false,
+                    "entry_can_invite": false,
+                    "has_cup": true,
+                    "cup_league": null,
+                    "cup_qualified": null,
+                    "rank_count": 28,
+                    "entry_percentile_rank": 5,
+                    "active_phases": [
+                        {
+                            "phase": 1,
+                            "rank": 1,
+                            "last_rank": 1,
+                            "rank_sort": 1,
+                            "total": 812,
+                            "league_id": 1101517,
+                            "rank_count": 28,
+                            "entry_percentile_rank": 5
+                        },
+                        {
+                            "phase": 5,
+                            "rank": 1,
+                            "last_rank": 1,
+                            "rank_sort": 1,
+                            "total": 127,
+                            "league_id": 1101517,
+                            "rank_count": 28,
+                            "entry_percentile_rank": 5
+                        }
+                    ],
+                    "entry_rank": 1,
+                    "entry_last_rank": 1
+                }
+            ],
+            "h2h": [],
+            "cup": {
+                "matches": [],
+                "status": {
+                    "qualification_event": null,
+                    "qualification_numbers": null,
+                    "qualification_rank": null,
+                    "qualification_state": null
+                },
+                "cup_league": null
+            },
+            "cup_matches": []
+        },
+        "name": "(Wes) Brownie Points",
+        "name_change_blocked": false,
+        "entered_events": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "kit": null,
+        "last_deadline_bank": 1,
+        "last_deadline_value": 1046,
+        "last_deadline_total_transfers": 2,
+        "club_badge_src": null
+    },
+    "history": {
+        "current": [
+            {
+                "event": 1,
+                "points": 102,
+                "total_points": 102,
+                "rank": 1829,
+                "rank_sort": 2198,
+                "overall_rank": 1829,
+                "percentile_rank": 1,
+                "bank": 0,
+                "value": 1000,
+                "event_transfers": 0,
+                "event_transfers_cost": 0,
+                "points_on_bench": 0
+            },
+            {
+                "event": 2,
+                "points": 49,
+                "total_points": 151,
+                "rank": 5811696,
+                "rank_sort": 5907719,
+                "overall_rank": 41002,
+                "percentile_rank": 55,
+                "bank": 0,
+                "value": 1001,
+                "event_transfers": 0,
+                "event_transfers_cost": 0,
+                "points_on_bench": 7
+            },
+            {
+                "event": 3,
+                "points": 63,
+                "total_points": 214,
+                "rank": 1124013,
+                "rank_sort": 1152261,
+                "overall_rank": 17768,
+                "percentile_rank": 10,
+                "bank": 0,
+                "value": 1004,
+                "event_transfers": 1,
+                "event_transfers_cost": 0,
+                "points_on_bench": 3
+            },
+            {
+                "event": 4,
+                "points": 94,
+                "total_points": 308,
+                "rank": 92389,
+                "rank_sort": 97502,
+                "overall_rank": 2009,
+                "percentile_rank": 1,
+                "bank": 0,
+                "value": 1005,
+                "event_transfers": 0,
+                "event_transfers_cost": 0,
+                "points_on_bench": 18
+            },
+            {
+                "event": 5,
+                "points": 51,
+                "total_points": 359,
+                "rank": 2385748,
+                "rank_sort": 2482973,
+                "overall_rank": 2403,
+                "percentile_rank": 25,
+                "bank": 0,
+                "value": 1010,
+                "event_transfers": 0,
+                "event_transfers_cost": 0,
+                "points_on_bench": 13
+            },
+            {
+                "event": 6,
+                "points": 85,
+                "total_points": 444,
+                "rank": 112678,
+                "rank_sort": 115679,
+                "overall_rank": 369,
+                "percentile_rank": 1,
+                "bank": 0,
+                "value": 1013,
+                "event_transfers": 0,
+                "event_transfers_cost": 0,
+                "points_on_bench": 4
+            },
+            {
+                "event": 7,
+                "points": 96,
+                "total_points": 540,
+                "rank": 56212,
+                "rank_sort": 59093,
+                "overall_rank": 43,
+                "percentile_rank": 1,
+                "bank": 0,
+                "value": 1019,
+                "event_transfers": 0,
+                "event_transfers_cost": 0,
+                "points_on_bench": 9
+            },
+            {
+                "event": 8,
+                "points": 67,
+                "total_points": 607,
+                "rank": 2812309,
+                "rank_sort": 2884753,
+                "overall_rank": 111,
+                "percentile_rank": 25,
+                "bank": 0,
+                "value": 1026,
+                "event_transfers": 0,
+                "event_transfers_cost": 0,
+                "points_on_bench": 4
+            },
+            {
+                "event": 9,
+                "points": 78,
+                "total_points": 685,
+                "rank": 107879,
+                "rank_sort": 114114,
+                "overall_rank": 5,
+                "percentile_rank": 1,
+                "bank": 0,
+                "value": 1031,
+                "event_transfers": 0,
+                "event_transfers_cost": 0,
+                "points_on_bench": 18
+            },
+            {
+                "event": 10,
+                "points": 98,
+                "total_points": 783,
+                "rank": 55783,
+                "rank_sort": 58244,
+                "overall_rank": 1,
+                "percentile_rank": 1,
+                "bank": 1,
+                "value": 1039,
+                "event_transfers": 1,
+                "event_transfers_cost": 0,
+                "points_on_bench": 6
+            },
+            {
+                "event": 11,
+                "points": 29,
+                "total_points": 812,
+                "rank": 10377248,
+                "rank_sort": 10478266,
+                "overall_rank": 5,
+                "percentile_rank": 85,
+                "bank": 1,
+                "value": 1046,
+                "event_transfers": 0,
+                "event_transfers_cost": 0,
+                "points_on_bench": 16
+            }
+        ],
+        "past": [],
+        "chips": [
+            {
+                "name": "bboost",
+                "time": "2025-08-14T15:57:24.848270Z",
+                "event": 1
+            },
+            {
+                "name": "3xc",
+                "time": "2025-10-31T21:57:07.859060Z",
+                "event": 10
+            }
+        ]
+    },
+    "gw_picks": {
+        "active_chip": null,
+        "automatic_subs": [
+            {
+                "entry": 6763403,
+                "element_in": 444,
+                "element_out": 260,
+                "event": 11
+            }
+        ],
+        "entry_history": {
+            "event": 11,
+            "points": 29,
+            "total_points": 812,
+            "rank": 10377248,
+            "rank_sort": 10478266,
+            "overall_rank": 5,
+            "percentile_rank": 85,
+            "bank": 1,
+            "value": 1046,
+            "event_transfers": 0,
+            "event_transfers_cost": 0,
+            "points_on_bench": 16
+        },
+        "picks": [
+            {
+                "element": 1,
+                "position": 1,
+                "multiplier": 1,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 1
+            },
+            {
+                "element": 575,
+                "position": 2,
+                "multiplier": 1,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 2
+            },
+            {
+                "element": 5,
+                "position": 3,
+                "multiplier": 1,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 2
+            },
+            {
+                "element": 36,
+                "position": 4,
+                "multiplier": 1,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 2
+            },
+            {
+                "element": 444,
+                "position": 5,
+                "multiplier": 1,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 2
+            },
+            {
+                "element": 119,
+                "position": 6,
+                "multiplier": 1,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 3
+            },
+            {
+                "element": 82,
+                "position": 7,
+                "multiplier": 1,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 3
+            },
+            {
+                "element": 21,
+                "position": 8,
+                "multiplier": 1,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 3
+            },
+            {
+                "element": 241,
+                "position": 9,
+                "multiplier": 1,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 3
+            },
+            {
+                "element": 430,
+                "position": 10,
+                "multiplier": 2,
+                "is_captain": true,
+                "is_vice_captain": false,
+                "element_type": 4
+            },
+            {
+                "element": 681,
+                "position": 11,
+                "multiplier": 1,
+                "is_captain": false,
+                "is_vice_captain": true,
+                "element_type": 4
+            },
+            {
+                "element": 469,
+                "position": 12,
+                "multiplier": 0,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 1
+            },
+            {
+                "element": 260,
+                "position": 13,
+                "multiplier": 0,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 2
+            },
+            {
+                "element": 136,
+                "position": 14,
+                "multiplier": 0,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 4
+            },
+            {
+                "element": 235,
+                "position": 15,
+                "multiplier": 0,
+                "is_captain": false,
+                "is_vice_captain": false,
+                "element_type": 3
+            }
+        ]
+    }
+}
